@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Business Cards",
+    "image": "/api/placeholder/250/250"
+  },
+  {
+    "id": 2,
+    "title": "Brochure Design",
+    "image": "/api/placeholder/250/250"
+  },
+  {
+    "id": 3,
+    "title": "Poster Printing",
+    "image": "/api/placeholder/250/250"
+  },
+  {
+    "id": 4,
+    "title": "Banner Design",
+    "image": "/api/placeholder/250/250"
+  },
+  {
+    "id": 5,
+    "title": "Packaging Design",
+    "image": "/api/placeholder/250/250"
+  },
+  {
+    "id": 6,
+    "title": "Logo Design",
+    "image": "/api/placeholder/250/250"
+  },
+  {
+    "id": 7,
+    "title": "Flyer Design",
+    "image": "/api/placeholder/250/250"
+  },
+  {
+    "id": 8,
+    "title": "Catalog Design",
+    "image": "/api/placeholder/250/250"
+  }
+]

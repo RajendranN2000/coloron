@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Quality Assurance",
+    "description": "We maintain the highest standards in every print job, ensuring exceptional quality and consistency.",
+    "icon": "🎯"
+  },
+  {
+    "id": 2,
+    "title": "Fast Delivery",
+    "description": "Quick turnaround times with reliable delivery options to meet your deadlines.",
+    "icon": "🚚"
+  },
+  {
+    "id": 3,
+    "title": "Expert Team",
+    "description": "Experienced professionals dedicated to bringing your vision to life with precision.",
+    "icon": "👥"
+  },
+  {
+    "id": 4,
+    "title": "Competitive Pricing",
+    "description": "Affordable rates without compromising on quality or service excellence.",
+    "icon": "💰"
+  }
+]

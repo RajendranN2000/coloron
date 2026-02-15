@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Inkjet Printing",
+    "description": "High-quality inkjet printing solutions for all your business needs with vibrant colors and sharp details.",
+    "image": "/api/placeholder/300/200"
+  },
+  {
+    "id": 2,
+    "title": "Flex Printing",
+    "description": "Durable and flexible printing solutions perfect for banners, signage and large format displays.",
+    "image": "/api/placeholder/300/200"
+  },
+  {
+    "id": 3,
+    "title": "Sublimation Printing Solutions",
+    "description": "Premium sublimation printing for fabrics, mugs, and promotional items with lasting quality.",
+    "image": "/api/placeholder/300/200"
+  },
+  {
+    "id": 4,
+    "title": "Industrial Printing Solutions",
+    "description": "Heavy-duty industrial printing solutions for manufacturing and commercial applications.",
+    "image": "/api/placeholder/300/200"
+  }
+]
