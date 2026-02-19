@@ -2,8 +2,8 @@ import React from "react";
 
 const OurSolutions: React.FC = () => {
   return (
-    <section className="w-full py-20 px-24">
-      <div className="mx-auto max-w-4xl text-center">
+    <section className="w-full py-20 px-4 md:px-24">
+      <div className="container mx-auto max-w-4xl text-center px-4">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
           Our <span className="text-blue-600">Solutions</span>

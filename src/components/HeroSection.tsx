@@ -35,7 +35,7 @@ const PrintingHero: React.FC = () => {
           </Link>
 
           <nav className="hidden items-center gap-8 text-sm text-white/80 md:flex">
-            <Link to="/" className="text-white hover:text-white/60 transition-colors">
+            <Link to="/" className="hover:text-white text-white  transition-colors">
               Home
             </Link>
             <Link to="/about" className="hover:text-white transition-colors">
@@ -44,9 +44,15 @@ const PrintingHero: React.FC = () => {
             <Link to="/products" className="hover:text-white transition-colors">
               Products
             </Link>
-            <Link to="/gallery" className="hover:text-white transition-colors">
+            <button
+              onClick={() => {
+                const el = document.getElementById('our-work');
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }}
+              className="hover:text-white transition-colors"
+            >
               Gallery
-            </Link>
+            </button>
 
             <div className="flex items-center gap-1">
               <FiGlobe size={16} />
@@ -72,7 +78,7 @@ const PrintingHero: React.FC = () => {
             </p>
 
             {/* Buttons */}
-            <div className="mt-8 flex items-center gap-4">
+            <div className="mt-8 flex flex-col lg:flex-row items-center gap-4">
               <Link to="/products" className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black shadow hover:bg-white/90 transition-colors">
                 View Products
               </Link>

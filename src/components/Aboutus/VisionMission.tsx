@@ -2,14 +2,14 @@ import { FaEye, FaBullseye } from "react-icons/fa";
 
 const VisionMission = () => {
     return (
-        <div className="mx-auto px-24 mt-10">
+        <div className="container mx-auto px-4 md:px-24 mt-10">
             <p className="text-gray-600 leading-relaxed mb-8">
                 At Color On Print House, Coimbatore, we don’t just print — we bring your ideas to life. From bold outdoor branding to fine indoor displays, every project is handled with care, precision, and pride. Our expertise in inkjet, eco-solvent, vinyl printing, and lamination ensures your brand always stands out with clarity and quality.
                 We believe great printing is built on two things: trust and consistency. That’s why our clients rely on us for dependable delivery, flawless finishes, and a service experience that feels personal, not transactional.
 
             </p>
 
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                 {/* Vision */}
                 <div className="bg-white p-6 rounded-xl shadow-sm border">

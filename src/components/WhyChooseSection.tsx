@@ -26,7 +26,7 @@ const WhyChooseSection: React.FC = () => {
 
   return (
     <section className="py-16 bg-gray-50">
-      <div className="container mx-auto px-24">
+      <div className="container mx-auto px-4 md:px-24">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Why Choose <span className="text-[#155DFC]"> Color On </span>Print House

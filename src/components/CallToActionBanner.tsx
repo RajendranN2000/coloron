@@ -2,8 +2,8 @@ import React from 'react';
 
 const CallToActionBanner: React.FC = () => {
   return (
-    <section className="py-16 bg-[#63119E] mx-16">
-      <div className="container mx-auto px-6 text-center">
+    <section className="py-16 bg-[#63119E]">
+      <div className="container mx-auto px-4 md:px-6 text-center">
         <h2 className="text-3xl font-bold text-white mb-4">
           Looking for dependable and high-quality printing solutions?
         </h2>

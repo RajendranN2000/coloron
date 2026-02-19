@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const ProductHero = () => {
   return (
-    <div className=" mx-auto mt-6 px-24">
+    <div className="container mx-auto px-4 md:px-24 mt-6">
       <div
-        className="rounded-2xl p-12 text-white bg-cover bg-center relative bg-[#000000]"
+        className="rounded-2xl p-8 md:p-12 text-white bg-cover bg-center relative bg-[#000000]"
       >
         <div className="absolute inset-0 bg-black/70 rounded-2xl" />
 

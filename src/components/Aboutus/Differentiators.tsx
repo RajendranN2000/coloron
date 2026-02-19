@@ -19,22 +19,22 @@ const Differentiators = () => {
     ];
 
     return (
-        <div className="text-center mt-14 px-24">
+        <div className="text-center mt-14 px-4 md:px-24">
             <h2 className="text-3xl font-semibold mb-6">
                 What Makes Us Different
             </h2>
-            <div className="">
-                <div className="flex justify-center gap-2">
+            <div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 justify-center">
                     {items.map((item, i) => (
-                        <div key={i} className="flex items-center gap-2 p-6 ">
-                            <div className="">
+                        <div key={i} className="flex flex-col items-center gap-2 p-6">
+                            <div>
                                 <img
                                     src={item.image}
                                     alt={item.title}
-                                    className="w-8 h-8 object-cover"
+                                    className="w-12 h-12 object-contain"
                                 />
                             </div>
-                            <h3 className="font-semibold ">{item.title}</h3>
+                            <h3 className="font-semibold text-center">{item.title}</h3>
                         </div>
                     ))}
                 </div>

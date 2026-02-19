@@ -40,7 +40,7 @@ const InfoCard: React.FC<CardProps> = ({
 
 const VisionMissionSection: React.FC = () => {
   return (
-    <section className="grid md:grid-cols-2 gap-8 px-24 mt-12">
+    <section className="container mx-auto px-4 md:px-24 grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
       <InfoCard
         title="Our Vision"
         description="To be a trusted printing partner recognized for quality, precision, and professionalism."

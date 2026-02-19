@@ -74,7 +74,7 @@ const materials = [
 ];
 const ProductList = () => {
     return (
-        <div className="mx-auto px-24 mt-10 grid md:grid-cols-2 gap-6">
+        <div className="container mx-auto px-4 sm:px-6 py-8 mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {materials && materials.map((each) => {
                 return (
                     <div className="bg-white rounded-xl overflow-hidden shadow-sm border hover:shadow-md transition">

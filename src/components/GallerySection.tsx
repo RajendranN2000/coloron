@@ -26,7 +26,7 @@ const GallerySection: React.FC = () => {
   ];
 
   return (
-    <section className="w-full px-24 pt-12">
+    <section className="container mx-auto px-4 md:px-24 pt-12">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {images.map((img, index) => (
           <ImageCard key={index} src={img} />

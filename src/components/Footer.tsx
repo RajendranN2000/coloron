@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-gray-100 text-gray-600">
-      <div className=" mx-auto px-24 py-12">
+      <div className="container mx-auto px-4 md:px-24 py-12">
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
           
@@ -28,21 +28,11 @@ const Footer: React.FC = () => {
 
           {/* Center - Navigation */}
           <div className="flex flex-col space-y-3 ">
-            <Link to="/" className="hover:text-gray-800 transition">
-              Home
-            </Link>
-            <Link to="/about" className="hover:text-gray-800 transition">
-              About
-            </Link>
-            <Link to="/products" className="hover:text-gray-800 transition">
-              Products
-            </Link>
-            <Link to="/gallery" className="hover:text-gray-800 transition">
-              Gallery
-            </Link>
-            <Link to="/contact" className="hover:text-gray-800 transition">
-              Contact
-            </Link>
+            <Link to="/" className="hover:text-gray-800 transition">Home</Link>
+            <Link to="/about" className="hover:text-gray-800 transition">About</Link>
+            <Link to="/products" className="hover:text-gray-800 transition">Products</Link>
+            <GalleryLink />
+            <Link to="/contact" className="hover:text-gray-800 transition">Contact</Link>
           </div>
 
           {/* Right - Contact */}
@@ -65,3 +55,28 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+
+function GalleryLink() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const goToGallery = () => {
+    const scrollTo = () => {
+      const el = document.getElementById('our-work');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(scrollTo, 120);
+    } else {
+      scrollTo();
+    }
+  };
+
+  return (
+    <button onClick={goToGallery} className="hover:text-gray-800 transition">
+      Gallery
+    </button>
+  );
+}
