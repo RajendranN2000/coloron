@@ -47,9 +47,8 @@ const Footer: React.FC = () => {
 
           {/* Right - Contact */}
           <div className="space-y-3 md:text-right">
-            <p>[Address to be updated]</p>
-            <p>[Phone Number]</p>
-            <p>[Email Address]</p>
+            <p>No.73-A, 2nd street Extension, 100 feet road, Gandhipuram, Coimbatore</p>
+            <p>+91 73563 19828</p>
           </div>
         </div>
 
