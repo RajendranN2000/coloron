@@ -31,7 +31,15 @@ const Footer: React.FC = () => {
             <Link to="/" className="hover:text-gray-800 transition">Home</Link>
             <Link to="/about" className="hover:text-gray-800 transition">About</Link>
             <Link to="/products" className="hover:text-gray-800 transition">Products</Link>
-            <GalleryLink />
+            <button
+              onClick={() => {
+                const el = document.getElementById('our-work');
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }}
+              className="text-start hover:text-gray-800 transition"
+            >
+              Gallery
+            </button>
             <Link to="/contact" className="hover:text-gray-800 transition">Contact</Link>
           </div>
 

@@ -30,10 +30,10 @@ const PrintingHero: React.FC = () => {
 
         {/* Header */}
         <header className="relative z-10 flex items-center justify-between px-8 pt-6">
-          <Link to="/" className="text-white font-semibold tracking-wide">
+          {/* <Link to="/" className="text-white font-semibold tracking-wide">
             Logo
-          </Link>
-
+          </Link> */}
+<div className=""></div>
           <nav className="hidden items-center gap-8 text-sm text-white/80 md:flex">
             <Link to="/" className="hover:text-white text-white  transition-colors">
               Home
